@@ -12,11 +12,9 @@ const Tab1: React.FC = () => {
     { label: 'Meter', value: 'meter' },
     { label: 'Kilometer', value: 'kilometer' },
     { label: 'Centimeter', value: 'centimeter' },
-    // Add more units as needed
   ];
 
   const convert = () => {
-    // Basic conversion logic for demonstration
     if (unitFrom === unitTo) {
       setResult(value || 0);
     } else if (unitFrom === 'meter' && unitTo === 'kilometer') {
@@ -24,7 +22,6 @@ const Tab1: React.FC = () => {
     } else if (unitFrom === 'kilometer' && unitTo === 'meter') {
       setResult((value || 0) * 1000);
     }
-    // Add more conversion logic as needed
   };
 
   return (

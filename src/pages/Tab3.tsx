@@ -12,7 +12,6 @@ const Tab3: React.FC = () => {
     { label: 'Gram', value: 'gram' },
     { label: 'Kilogram', value: 'kilogram' },
     { label: 'Ounce', value: 'ounce' },
-    // Add more units as needed
   ];
 
   const convert = () => {
